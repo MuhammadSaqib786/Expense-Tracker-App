@@ -27,26 +27,27 @@ body {
 h1 {
   letter-spacing: 1px;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
   letter-spacing: 1px;
   margin: 0;
   text-align: center;
+  background-color: bisque;
 }
 
 h3 {
   border-bottom: 1px solid #bbb;
   padding-bottom: 10px;
   margin: 40px 0 10px;
-  text-align: center;
+  text-align: left;
 }
 
 h4 {
   margin: 0;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 }
 
 .inc-exp-container {
@@ -60,7 +61,7 @@ h4 {
 
 .inc-exp-container > div {
   flex: 1;
-  text-align: center;
+  text-align: left;
 }
 
 .inc-exp-container > div:first-of-type {

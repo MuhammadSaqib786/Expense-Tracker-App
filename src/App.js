@@ -4,14 +4,14 @@ import React from 'react';
 import './App.css';
 
 // Import Components
-import { Header } from './components/Header';
-import { Balance } from './components/Balance';
-import { AccountSummary } from './components/AccountSummary';
-import { TransactionHistory } from './components/TransactionHistory';
-import { AddTransaction } from './components/AddTransaction';
+import { Header } from './Components/Header';
+import { Balance } from './Components/Balance';
+import { AccountSummary } from './Components/AccountSummary';
+import { TransactionHistory } from './Components/TransactionHistory';
+import { AddTransaction } from './Components/AddTransaction';
 
 // Import Provider
-import { GlobalProvider } from './context/GlobalState';
+import { GlobalProvider } from './context/globalState';
 
 function App() {
   return (

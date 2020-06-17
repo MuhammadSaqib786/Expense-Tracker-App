@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 
 // Import the Global State
-import { GlobalContext } from '../context/GlobalState';
+import { GlobalContext } from '../context/globalState';
 
 
 export const AddTransaction = () => {
@@ -36,7 +36,7 @@ export const AddTransaction = () => {
                             id="description"
                             value={description}
                             onChange={(e) => setDescription(e.target.value)}
-                            placeholder="Detail of Transaction" 
+                            placeholder="Enter name of transaction" 
                             required="required"
                     />
                 </div>
@@ -48,7 +48,7 @@ export const AddTransaction = () => {
                             id="transactionamount"
                             value={transactionAmount}
                             onChange={(e) => setTransactionAmount(e.target.value)}
-                            placeholder="Dollar Value of Transaction"
+                            placeholder="Enter amount"
                             required="required"
                     />
                 </div>
