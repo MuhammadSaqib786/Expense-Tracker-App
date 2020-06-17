@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Header = () => {
+export const Header = () => {
     return (
-        <div>
-           <h2>Expense Tracker</h2> 
-        </div>
+        <h2>
+            Expense Tracker by Adil Altaf
+        </h2>
     )
 }
-
-export default Header;
